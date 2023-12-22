@@ -1,7 +1,7 @@
 let userCount = 0;
 let compCount = 0;
 
-let choices = document.querySelectorAll(".choice");
+let choices = document.querySelectorAll(".choice"); //Access choice
 let msg = document.querySelector("#msg");
 let userScore = document.querySelector("#user-score");
 let compScore = document.querySelector("#comp-score");
