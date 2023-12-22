@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url("./Images/SPSGame.webp");
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  line-height: 6rem;
+  background-color: #081b31;
+}
+
+img {
+  height: 14rem;
+  width: 14rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+.choice {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.score {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+#user-score {
+  margin-left: 2.5rem;
+  color: #ffffc7;
+}
+
+#comp-score {
+  margin-left: 7rem;
+  color: #ffffc7;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 7rem;
+}
+
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+#msg {
+  font-size: 3rem;
+  color: white;
+  background-color: #081b31;
+  border-radius: 1.5rem;
+  padding: 0.7rem;
+}
